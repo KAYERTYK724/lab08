@@ -4,41 +4,114 @@
     <!-- Profile Card -->
     <div class="card profile-card shadow-lg">
       <div class="card-body text-center">
-        <img src="../../public/Gemini_Generated_Image_kt49rfkt49rfkt49.png"
-          class="rounded-circle profile-img mb-3" alt="avatar">
+
+        <!-- FIX IMAGE -->
+        <img src="/Gemini_Generated_Image_kt49rfkt49rfkt49.png"
+             class="rounded-circle profile-img mb-3" alt="avatar">
+
         <h3 class="fw-bold">Khanh Truong</h3>
         <p class="text-muted">Frontend Developer</p>
+
+        <!-- SOCIAL -->
+        <div class="mb-3">
+          <span class="badge bg-primary me-1">Angular</span>
+          <span class="badge bg-success me-1">React</span>
+          <span class="badge bg-dark">Bootstrap</span>
+        </div>
 
         <div class="d-flex justify-content-center gap-3 my-3">
           <button class="btn btn-primary">Follow</button>
           <button class="btn btn-outline-secondary">Message</button>
         </div>
+
+        <!-- STATS -->
+        <div class="row text-center mt-4">
+          <div class="col">
+            <h5 class="fw-bold">120</h5>
+            <small class="text-muted">Posts</small>
+          </div>
+          <div class="col">
+            <h5 class="fw-bold">2.5K</h5>
+            <small class="text-muted">Followers</small>
+          </div>
+          <div class="col">
+            <h5 class="fw-bold">300</h5>
+            <small class="text-muted">Following</small>
+          </div>
+        </div>
+
       </div>
     </div>
 
     <!-- Info Section -->
-    <div class="row mt-4">
+    <div class="row mt-4 g-4">
+
+      <!-- ABOUT -->
       <div class="col-md-6">
-        <div class="card shadow-sm info-card">
+        <div class="card shadow-sm info-card h-100">
           <div class="card-body">
             <h5 class="card-title">About Me</h5>
-            <p>I love building modern web interfaces using Angular, React and Bootstrap.</p>
+            <p>
+              I love building modern web interfaces using Angular, React and Bootstrap.
+              Passionate about UI/UX and clean code.
+            </p>
           </div>
         </div>
       </div>
 
+      <!-- CONTACT -->
       <div class="col-md-6">
-        <div class="card shadow-sm info-card">
+        <div class="card shadow-sm info-card h-100">
           <div class="card-body">
             <h5 class="card-title">Contact</h5>
             <ul class="list-unstyled">
               <li>Email: gkaydertk@gmail.com</li>
-              <li>Phone: 0911885132</li>
+              <li>Phone: 0123456789</li>
               <li>Location: Vietnam</li>
             </ul>
           </div>
         </div>
       </div>
+
+      <!-- SKILLS -->
+      <div class="col-md-6">
+        <div class="card shadow-sm info-card">
+          <div class="card-body">
+            <h5 class="card-title">Skills</h5>
+
+            <p class="mb-1">HTML/CSS</p>
+            <div class="progress mb-2">
+              <div class="progress-bar" style="width: 90%"></div>
+            </div>
+
+            <p class="mb-1">JavaScript</p>
+            <div class="progress mb-2">
+              <div class="progress-bar bg-success" style="width: 85%"></div>
+            </div>
+
+            <p class="mb-1">Angular</p>
+            <div class="progress">
+              <div class="progress-bar bg-warning" style="width: 80%"></div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- PROJECTS -->
+      <div class="col-md-6">
+        <div class="card shadow-sm info-card">
+          <div class="card-body">
+            <h5 class="card-title">Recent Projects</h5>
+            <ul>
+              <li>E-commerce Website</li>
+              <li>Admin Dashboard</li>
+              <li>Portfolio Website</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
     </div>
 
   </div>
